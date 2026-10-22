@@ -11,7 +11,7 @@ async function startServer() {
     console.log('✓ Base de datos PostgreSQL conectada y sincronizada.');
 
     app.listen(PORT, () => {
-      console.log(`🚀 Servidor ejecutándose en http://localhost:${PORT}/api/v1`);
+      console.log(`🚀 Servidor ejecutandose en http://localhost:${PORT}/api/v1`);
     });
   } catch (error) {
     console.error('❌ Error al conectar con la base de datos:', error);
